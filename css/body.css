@@ -8,3 +8,158 @@ body{
     background-color: #18181b;
     overflow-x: hidden;
 }
+
+::-webkit-scrollbar{
+    width: 8px;
+    animation: animationScroll linear infinite 20s;
+
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background: #29d882;
+    border-radius: 50px; 
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #9849ff;
+
+}
+.conteinerTitleFooter{
+    font-size: 26px;
+    color: white;
+    padding: 30px;
+    
+}
+.containerAlunos{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    color: white;
+}
+.containerGuilherme{
+    width: 20%;
+    height: 30%;
+
+
+    display: flex;
+    flex-direction: column;
+}
+.containerJuliana{
+    width: 20%;
+    height: 30%;
+
+
+    display: flex;
+    flex-direction: column;
+
+}
+.containerSvg {
+    float: left;
+    width: 100%;
+    margin-bottom: -2px;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.containerSvg svg {
+    float: left;    
+    display: block;
+    width: calc(148% + 1.3px);
+    height: 178px;
+    /* background: #ffffff; */
+    margin-bottom: -2px;
+}
+.containerSvg .shape-fill {
+    fill: #9849ff;
+}
+
+.containerImgFooter{
+    width: 300px;
+    height: 100px;
+}
+.containerImgFooter img{
+    width: 100%;
+}
+
+/* From Uiverse.io by ahmed150up2 */ 
+.cardLink {
+    display: flex;
+    width: 500px;
+    height: 70px;
+  }
+  
+  .cardLink svg {
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.25s;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  .cardLink .social-link1,.cardLink .social-link2,.cardLink .social-link3,.cardLink .social-link4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50px;
+  }
+  
+  .cardLink svg {
+    transform: scale(1);
+  }
+  
+  .cardLink .social-link1:hover {
+    background-color: #1a1e22;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .cardLink .social-link2:hover {
+    background-color: #0a66c2;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .cardLink .social-link3:hover {
+    background-color: #0059f7;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .cardLink .social-link4:hover {
+    background-color: #1d4292;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  @keyframes bounce_613 {
+    40% {
+      transform: scale(1.4);
+    }
+  
+    60% {
+      transform: scale(0.8);
+    }
+  
+    80% {
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }

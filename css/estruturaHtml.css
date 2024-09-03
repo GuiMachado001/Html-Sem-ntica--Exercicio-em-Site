@@ -1,0 +1,45 @@
+#estruturaHtml{
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerTitleEstrutura{
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerTitleEstrutura p{
+    color: white;
+    font-size: 50px;
+}
+.containerConteudoEstrutura{
+    width: 80%;
+    height: 80%;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    border: 3px solid #9849ff;
+    box-shadow: 0 0 20px #9849ff;
+    border-radius: 10px;
+}
+.containerConteudoEstrutura img{
+    margin-top: 30px;
+}
+.containerConteudoEstrutura h1, .containerConteudoEstrutura h2{
+    margin-top: 30px;
+    color: white;
+    font-size: 26px;
+}

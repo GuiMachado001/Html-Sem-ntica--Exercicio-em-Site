@@ -15,8 +15,8 @@ const initTypingAnimation = () => {
     }
 
     typingAnimation(titleApresentacao, 'HTML Semântica ', 0)
-    typingAnimation(span, 'Prf: Enilda Aparecida Mendes da Rosa Cáceres', 1600)
-    typingAnimation(paragraph, 'Guilherme Machado e Juliana Barbosa', 4200)
+    typingAnimation(span, 'prof.ª": Enilda Aparecida Mendes da Rosa Cáceres', 1600)
+    typingAnimation(paragraph, 'Alunos: Guilherme Machado e Juliana Barbosa', 5200)
 }
 initTypingAnimation()
 
@@ -31,7 +31,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         mobile: true,
     });
 
-    sr.reveal('.containerTitleSemantica', {
+    sr.reveal('.animationTop', {
         distance: '3000px',
         origin: 'top',
         duration: 1000,
@@ -39,43 +39,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
         reset: false,
         mobile: true,
     });
-    sr.reveal('.mainSemantica', {
+    sr.reveal('.animationLeft', {
         distance: '3000px',
         origin: 'left',
-        duration: 1000,
-        delay: 100,
-        reset: false,
-        mobile: true,
-    });
-    sr.reveal('#titleTag', {
-        distance: '3000px',
-        origin: 'top',
-        duration: 1000,
-        delay: 100,
-        reset: false,
-        mobile: true,
-    });
-    sr.reveal('.containerConteudoTags', {
-        distance: '3000px',
-        origin: 'left',
-        duration: 1000,
-        delay: 100,
-        reset: false,
-        mobile: true,
-    });
-
-    sr.reveal('.containerDescTag h1, .containerDescTag h2', {
-        distance: '3000px',
-        origin: 'left',
-        duration: 1000,
-        delay: 100,
-        reset: false,
-        mobile: true,
-    });
-
-    sr.reveal('.card', {
-        distance: '3000px',
-        origin: 'top',
         duration: 1000,
         delay: 100,
         reset: false,

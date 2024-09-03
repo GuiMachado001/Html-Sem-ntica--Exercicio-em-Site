@@ -28,12 +28,12 @@ header{
 }
 .containerName h1{
     font-size: 35px;
-    /* color: #9849ff; */
+    color: white;
 
-    background: linear-gradient(54deg, rgba(77,39,128,1) 5%, rgba(152,73,255,1) 78%);
+    /* background: linear-gradient(54deg, rgba(77,39,128,1) 5%, rgba(152,73,255,1) 78%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-: 0 0 10px #9849ff;
+    -webkit-: 0 0 10px #9849ff; */
 }
 
 nav{
@@ -62,29 +62,3 @@ a{
 }
 
 
-@media (min-width: 0px) and (max-width: 480px) {
-    nav{
-        display: none;
-    }
-    .containerName{
-        width: 100%;
-        margin-left: 0;
-        font-size: 20px;
-    }
-}
-@media (min-width: 481px) and (max-width: 768px) {
-    .containerName{
-        width: 60%;
-        margin-left: 0;
-    }
-    .containerName h1{
-        font-size: 30px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1279px) {
-    .containerName{
-        width: 30%;
-        margin-left: 0;
-    }
-}
