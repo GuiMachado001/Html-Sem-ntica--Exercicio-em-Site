@@ -43,3 +43,30 @@
     color: white;
     font-size: 26px;
 }
+
+@media (max-width: 480px) {
+    .containerTitleEstrutura p{
+        font-size: 25px;
+    }
+    .containerConteudoEstrutura h1, .containerConteudoEstrutura h2{
+        font-size: 20px;
+        padding: 20px;
+        margin-top: 0;
+    }
+    .containerConteudoEstrutura img{
+        width: 90%;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .containerTitleEstrutura p{
+        font-size: 25px;
+    }
+    .containerConteudoEstrutura h1, .containerConteudoEstrutura h2{
+        font-size: 20px;
+        padding: 20px;
+        margin-top: 0;
+    }
+    .containerConteudoEstrutura img{
+        width: 90%;
+    }
+}

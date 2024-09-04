@@ -61,4 +61,29 @@ a{
     color: white;
 }
 
+@media (max-width: 480px) {
+    .containerName h1{
+        font-size: 14px;
+    }
+    a{
+        font-size: 8px;
+    }
+}
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .containerName h1{
+        font-size: 20px;
+    }
+    a{
+        font-size: 13px;
+    }
+}
+
+/* @media (min-width: 769px) and (max-width: 1279px) {
+    .containerName h1{
+        font-size: 30px;
+    }
+    a{
+        font-size: 13px;
+    }
+} */

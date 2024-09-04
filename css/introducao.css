@@ -133,3 +133,31 @@
   transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
  }
 }
+
+
+
+@media (max-width: 480px) {
+    .titleApresentacao span{
+        font-size: 15px;
+    }
+    .titleApresentacao p{
+        font-size: 15px;
+    }
+    .spinner {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .titleApresentacao span{
+        font-size: 15px;
+    }
+    .titleApresentacao p{
+        font-size: 15px;
+    }
+    .spinner {
+        width: 150px;
+        height: 150px;
+    }
+}
